@@ -1,7 +1,12 @@
-namespace DesafioProjetoHospedagem.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-public class Pessoa
+namespace DesafioDeProgramacao02.Models
 {
+    public class Pessoa
+    {
     public Pessoa() { }
 
     public Pessoa(string nome)
@@ -18,4 +23,5 @@ public class Pessoa
     public string Nome { get; set; }
     public string Sobrenome { get; set; }
     public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+    }
 }

@@ -1,6 +1,11 @@
-namespace DesafioProjetoHospedagem.Models
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace DesafioDeProgramacao02.Models
 {
-    public class Suite
+public class Suite
     {
         public Suite() { }
 
